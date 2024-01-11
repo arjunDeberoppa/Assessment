@@ -1,0 +1,741 @@
+:root {
+  --black: #3c3d41;
+  --green: #00a96f;
+  --light-grey: #f4f4f4;
+  --white: #ffffff;
+  --blue: #605ea8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  background-color: var(--light-grey);
+}
+
+header {
+  background-color: var(--blue);
+  color: var(--white);
+  height: 50px;
+  text-align: center;
+}
+
+h4,
+h3,
+h2,
+p {
+  margin: 0;
+}
+
+/* css code for section 1 */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin: 112px 64px;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  width: 768px;
+  height: auto;
+  align-self: center;
+  gap: 24px;
+}
+
+.explore-button {
+  display: flex;
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+  color: var(--white);
+  padding: 12px 24px;
+  font-family: Montserrat;
+  font-size: 16px;
+  gap: 12px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.explore-button svg {
+  width: 24px;
+  height: 24px;
+}
+
+.main-heading {
+  text-align: center;
+  color: var(--black);
+  font-family: Montserrat;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 120%;
+  letter-spacing: -0.56px;
+  align-self: stretch;
+}
+
+.main-heading span {
+  color: var(--green);
+}
+
+.Welcome-para {
+  text-align: center;
+  color: var(--black);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 150%;
+}
+
+/* second Section Begins from Here */
+
+.container-2 {
+  display: flex;
+}
+
+.section-2 {
+  position: relative;
+  width: 1440px;
+  height: 827px;
+  color: var(--white);
+  background-image: url(./images/gym-1.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.section-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(96, 94, 168, 0.8), rgba(96, 94, 168, 0.8));
+  z-index: 1;
+}
+
+.container-2 > div {
+  z-index: 2;
+}
+
+.sub-container-2 {
+  display: flex;
+  flex-direction: column;
+  align-self: self-start;
+  gap: 16px;
+}
+
+.sub-container-2 h2 {
+  margin-bottom: 8px;
+}
+
+.achievements {
+  font-family: Montserrat;
+  font-size: 16px;
+}
+
+.sub-heading {
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 120%;
+  letter-spacing: -0.48px;
+}
+
+.sub-heading span {
+  color: var(--green);
+}
+
+.sub-container-2 p {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 150%;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.sub-box {
+  display: flex;
+  gap: 48px;
+}
+
+.count {
+  font-family: Montserrat;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 130%;
+}
+
+.sub-count {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 140%;
+}
+
+.count-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 373.3px;
+  height: auto;
+  padding-left: 32px;
+  border-left: 2px solid var(--white);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.secondary-button {
+  background-color: rgba(255, 255, 255, 0);
+  color: var(--white);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 150%;
+  letter-spacing: 0.16px;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.secondary-button .icon-container {
+  flex-shrink: 0;
+}
+
+.main-button {
+  font-family: Montserrat;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 150%;
+  letter-spacing: 0.16px;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.s {
+  display: flex;
+  gap: 24px;
+}
+
+/* styling for section 3 */
+
+.container-3 {
+  flex-direction: row;
+  margin: 80px 64px 0px 64px;
+}
+
+.sub-container-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.rating {
+  display: flex;
+  gap: 16px;
+}
+
+.price {
+  color: var(--black);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 130%;
+  letter-spacing: -0.32px;
+}
+
+.rating-outof-5 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--black);
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.buttonss {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.buttonss .explore-button {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border: 1px solid #605ea8;
+  background: #605ea8;
+  width: 360px;
+}
+
+.buy-now-button {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border: 0px solid var(--black);
+  background: #e5e5e5;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-size: 16px;
+}
+
+.buttonss p {
+  width: 360px;
+  color: var(--Black, #3c3d41);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.course-info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.course-info article {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.course-info article p {
+  color: var(--Black, var(--black));
+  align-self: stretch;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+}
+
+.course-info article h2 {
+  color: var(--Black, var(--black));
+  align-self: stretch;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.4px;
+}
+
+.course-info article .p {
+  color: var(--Black, #3c3d41);
+  width: 872px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.list-box {
+  border: 0px solid var(--Black, #3c3d41);
+  background: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px;
+  align-self: stretch;
+}
+
+.list-box p {
+  color: var(--Black, var(--black));
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.check-list {
+  display: flex;
+  gap: 24px;
+  padding: 8px 0px;
+}
+
+.check-list nav {
+  display: flex;
+  flex-direction: column;
+  width: 392px;
+  gap: 16px;
+}
+
+.check-list nav aside {
+  display: flex;
+  gap: 16px;
+  width: 352px;
+  height: 24px;
+}
+
+/* CSS code for section-4 */
+
+.container-4 {
+  gap: 64px;
+}
+
+.course-section {
+  display: flex;
+  gap: 32px;
+}
+
+.individual-course {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.individual-course div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.individual-course div h3 {
+  color: var(--Black, #3c3d41);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.individual-course div p {
+  color: var(--Black, #3c3d41);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.individual-course .price-1 {
+  color: var(--Black, #3c3d41);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+@media screen and (max-width: 375px) {
+}
+
+/* CSS code for section-5 */
+
+.section-5 {
+  background-color: #eeeeee;
+}
+
+.boxx-1 {
+  display: flex;
+  gap: 80px;
+  padding: 112px 64px 64px 64px;
+}
+
+.boxx-1 h2 {
+  color: var(--Black, #3c3d41);
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.4px;
+  width: 616px;
+  height: auto;
+}
+
+.boxx-1 h2 span {
+  color: var(--Green, #00a96f);
+}
+
+.boxx-1 p {
+  color: var(--Black, #3c3d41);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  width: 616px;
+  height: auto;
+}
+
+.boxx-2 {
+  display: flex;
+  gap: 64px;
+  padding: 0px 64px 112px 64px;
+}
+
+.certified {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  flex: 1 0 0;
+}
+
+.certification-details h4 {
+  color: var(--Black, #3c3d41);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.certification-details h3 {
+  color: var(--Black, #3c3d41);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.certification-details p {
+  color: var(--Black, #3c3d41);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.certification-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.certification-details nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  .container {
+    margin: 64px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .sub-container {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+
+  .main-heading {
+    color: var(--black);
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .main-heading span {
+    color: var(--green);
+  }
+
+  .Welcome-para {
+    color: var(--Black, #3c3d41);
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .explore-button {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .container-1 img {
+    height: auto;
+  }
+
+  /* section - 2*/
+  .section-2 {
+    position: relative;
+    width: 375px;
+    height: 951px;
+    color: var(--white);
+    background-image: url(./images/gym-mobile.png);
+    background-size: cover;
+    overflow: hidden;
+  }
+  .container-2 {
+    flex-direction: column;
+  }
+
+  .sub-container-2 {
+    gap: 20px;
+  }
+
+  .achievements {
+    margin-bottom: -8px;
+    font-size: 18px;
+  }
+
+  .sub-heading {
+    font-size: 36px;
+  }
+
+  .sub-container-2 p {
+    font-size: 16px;
+  }
+
+  .sub-box {
+    gap: 32px;
+    flex-direction: column;
+  }
+
+  .box {
+    gap: 24px;
+  }
+
+  .count {
+    font-size: 56px;
+  }
+
+  .sub-count {
+    font-size: 18px;
+  }
+
+  .s {
+    margin-top: 16px;
+  }
+
+  /* section - 3*/
+  .third {
+    display: flex;
+  }
+
+  .buttonss .explore-button {
+    width: auto;
+  }
+
+  .course-info {
+    order: -1;
+  }
+
+  .course-info article {
+    width: 335px;
+  }
+
+  .course-info article p {
+    font-size: 16px;
+  }
+
+  .course-info article .p {
+    font-size: 16px;
+    width: 335px;
+  }
+
+  .course-info article h2 {
+    font-size: 32px;
+  }
+
+  .list-box {
+    padding: 32px 16px;
+  }
+
+  .check-list {
+    flex-direction: column;
+  }
+
+  /* section - 4*/
+  .course-section {
+    flex-direction: column;
+  }
+
+  /* section - 5*/
+  .section-5 div {
+    margin-left: 7px;
+  }
+  .boxx-1 {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .boxx-1 h2 {
+    width: 335px;
+    font-size: 32px;
+    margin-top: 64px;
+  }
+
+  .boxx-1 p {
+    width: 335px;
+    height: 168px;
+    font-size: 16px;
+  }
+
+  .boxx-2 {
+    flex-direction: column;
+    gap: 80px;
+    padding: 0;
+    margin-bottom: 64px;
+    width: 335px;
+  }
+
+  .certified {
+    flex-direction: column;
+    align-items: baseline;
+  }
+}
