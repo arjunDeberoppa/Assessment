@@ -4,10 +4,12 @@
   --light-grey: #f4f4f4;
   --white: #ffffff;
   --blue: #605ea8;
+  --montserrat: "Montserrat", sans-serif;
 }
 
 * {
   box-sizing: border-box;
+  font-family: var(--montserrat);
 }
 
 body {
@@ -53,7 +55,6 @@ p {
   border: 1px solid var(--blue);
   color: var(--white);
   padding: 12px 24px;
-  font-family: Montserrat;
   font-size: 16px;
   gap: 12px;
   align-self: center;
@@ -71,7 +72,6 @@ p {
 .main-heading {
   text-align: center;
   color: var(--black);
-  font-family: Montserrat;
   font-size: 56px;
   font-style: normal;
   font-weight: bold;
@@ -87,7 +87,6 @@ p {
 .Welcome-para {
   text-align: center;
   color: var(--black);
-  font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
   font-weight: normal;
@@ -137,12 +136,10 @@ p {
 }
 
 .achievements {
-  font-family: Montserrat;
   font-size: 16px;
 }
 
 .sub-heading {
-  font-family: Montserrat;
   font-size: 48px;
   font-style: normal;
   font-weight: bold;
@@ -155,7 +152,6 @@ p {
 }
 
 .sub-container-2 p {
-  font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
   font-weight: normal;
@@ -174,7 +170,6 @@ p {
 }
 
 .count {
-  font-family: Montserrat;
   font-size: 88px;
   font-style: normal;
   font-weight: bold;
@@ -182,7 +177,6 @@ p {
 }
 
 .sub-count {
-  font-family: Montserrat;
   font-size: 20px;
   font-style: normal;
   font-weight: bold;
@@ -208,7 +202,6 @@ p {
 .secondary-button {
   background-color: rgba(255, 255, 255, 0);
   color: var(--white);
-  font-family: Montserrat;
   font-size: 16px;
   font-weight: normal;
   line-height: 150%;
@@ -227,7 +220,6 @@ p {
 }
 
 .main-button {
-  font-family: Montserrat;
   color: var(--white);
   font-size: 16px;
   font-weight: normal;
@@ -265,7 +257,6 @@ p {
 
 .price {
   color: var(--black);
-  font-family: Montserrat;
   font-size: 32px;
   font-style: normal;
   font-weight: bold;
@@ -274,7 +265,6 @@ p {
 }
 
 .rating-outof-5 {
-  font-family: Montserrat;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -317,7 +307,6 @@ p {
   border: 0px solid var(--black);
   background: #e5e5e5;
   cursor: pointer;
-  font-family: Montserrat;
   font-size: 16px;
 }
 
@@ -325,7 +314,6 @@ p {
   width: 360px;
   color: var(--Black, #3c3d41);
   text-align: center;
-  font-family: Montserrat;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -347,7 +335,6 @@ p {
 .course-info article p {
   color: var(--Black, var(--black));
   align-self: stretch;
-  font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -357,7 +344,6 @@ p {
 .course-info article h2 {
   color: var(--Black, var(--black));
   align-self: stretch;
-  font-family: Montserrat;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -368,7 +354,6 @@ p {
 .course-info article .p {
   color: var(--Black, #3c3d41);
   width: 872px;
-  font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -387,8 +372,7 @@ p {
 
 .list-box p {
   color: var(--Black, var(--black));
-  font-family: Montserrat;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 150%;
@@ -439,7 +423,6 @@ p {
 
 .individual-course div h3 {
   color: var(--Black, #3c3d41);
-  font-family: Montserrat;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -448,7 +431,6 @@ p {
 
 .individual-course div p {
   color: var(--Black, #3c3d41);
-  font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -457,7 +439,6 @@ p {
 
 .individual-course .price-1 {
   color: var(--Black, #3c3d41);
-  font-family: Montserrat;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -481,7 +462,6 @@ p {
 
 .boxx-1 h2 {
   color: var(--Black, #3c3d41);
-  font-family: Montserrat;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -497,7 +477,6 @@ p {
 
 .boxx-1 p {
   color: var(--Black, #3c3d41);
-  font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -521,7 +500,6 @@ p {
 
 .certification-details h4 {
   color: var(--Black, #3c3d41);
-  font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -530,7 +508,6 @@ p {
 
 .certification-details h3 {
   color: var(--Black, #3c3d41);
-  font-family: Montserrat;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -539,7 +516,6 @@ p {
 
 .certification-details p {
   color: var(--Black, #3c3d41);
-  font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
