@@ -675,6 +675,14 @@ p {
     flex-direction: column;
   }
 
+  .check-list nav .aside-wrap {
+    height: 46px;
+  }
+
+  .wrap {
+    width: 290px;
+  }
+
   /* section - 4*/
   .course-section {
     flex-direction: column;
@@ -682,8 +690,12 @@ p {
 
   /* section - 5*/
   .section-5 div {
-    margin-left: 7px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
   }
+
   .boxx-1 {
     flex-direction: column;
     gap: 20px;
@@ -713,5 +725,17 @@ p {
   .certified {
     flex-direction: column;
     align-items: baseline;
+    gap: 24px;
+  }
+
+  #last-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0;
+  }
+
+  #last-box .boxx-2 {
+    gap: 80px;
   }
 }
